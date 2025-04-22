@@ -1,6 +1,5 @@
-# Ex.No: 3  Implementation of Minimax Search
-### DATE:                                                                            
-### REGISTER NUMBER : 
+# Ex.No: 3  Implementation of Minimax Search                                                                            
+## REGISTER NUMBER : 212223060029
 ### AIM: 
 Write a mini-max search algorithm to find the optimal value of MAX Player from the given graph.
 ### Algorithm:
@@ -15,20 +14,14 @@ Write a mini-max search algorithm to find the optimal value of MAX Player from t
 9. Stop the program. 
 
 ### Program:
-
-
-
-
-
-
-
-
-
-
-
+```
+else:
+    return min(minimax(curDepth + 1, nodeIndex * 2, True, scores, targetDepth),
+               minimax(curDepth + 1, nodeIndex * 2 + 1,
+                 True, scores, targetDepth))
+```
 ### Output:
-
-
+![374134494-3b3cb69b-0f36-49ba-b209-5ddde00bc742](https://github.com/user-attachments/assets/89562b09-375f-4e56-a35a-bd9dc31d38a9)
 
 ### Result:
 Thus the optimum value of max player was found using minimax search.
