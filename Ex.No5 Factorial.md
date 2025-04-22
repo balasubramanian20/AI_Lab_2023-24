@@ -20,4 +20,4 @@ To  write  a logic program for finding the factorial of given number using SWI-P
 
 
 ### Result:
-Thus the factorial of given number was found by logic programming. 
+Thus the factorial of given number was found by logic programming.
